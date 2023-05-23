@@ -27,7 +27,6 @@
   {%- if site.google_analytics %}{% include ganalytics.html %}{% endif %}
   
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>mermaid.initialize({startOnLoad:true,  securityLevel: 'antiscript'});</script>
   
 </head>
 
@@ -100,14 +99,14 @@
       // put the Mermaid contents in the expected <div class="mermaid">
       // plus keep the original contents in a nice <details>
       $el.outerHTML = `
-        <div class="mermaid">${$el.innerHTML}</div>
+        <div class="mermaid">${$el.textContent}</div>
         <details>
           <summary>Diagram source</summary>
-          <pre>${$el.innerHTML}</pre>
+          <pre>${$el.textContent}</pre>
         </details>
       `
     })
-    
+    mermaid.initialize({startOnLoad:true,  securityLevel: 'antiscript',});
   </script>
   <!-- Build Date: {{ site.time | date: "%Y-%m-%d %H:%M" }} -->
 </body>
