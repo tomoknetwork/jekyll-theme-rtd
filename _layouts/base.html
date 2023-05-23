@@ -100,10 +100,10 @@
       // put the Mermaid contents in the expected <div class="mermaid">
       // plus keep the original contents in a nice <details>
       $el.outerHTML = `
-        <div class="mermaid">${$el.innerHTML.innerHTML}</div>
+        <div class="mermaid">${$el.innerHTML}</div>
         <details>
           <summary>Diagram source</summary>
-          <pre>${$el.innerHTML.innerHTML}</pre>
+          <pre>${$el.innerHTML}</pre>
         </details>
       `
     })
