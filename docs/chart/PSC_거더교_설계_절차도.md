@@ -4,41 +4,11 @@ title: PSC 거더교 설계 절차도
 nav_order: 2
 ---
 
-<h1>PSC 거더교 설계 절차도</h1>
+# PSC 거더교 설계 절차도
 
-<div class="mermaid"> 
-  graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D; 
-</div>
 
-<div class="mermaid"> 
-  graph TD;
-  A[<a href='https://naver.com'>naver</a>]-->B;
-  A-->C;
-  B-->D;
-  C-->D; 
-</div>
-
-<div class="mermaid"> 
-  graph TD
-  A-->B
-  A-->C
-  B-->D
-  C-->D 
-</div>
-
-<div class="mermaid"> 
-  graph TD
-  A[<a href='https://naver.com'>naver</a>]-->B
-  A-->C
-  B-->D
-  C-->D 
-</div>
-
-<div class="mermaid"> 
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart TD
     subgraph s1[" "]
         n1[교량 설계 시작]
@@ -48,7 +18,7 @@ flowchart TD
             n2_3[ED교]
         end
         n3[상부구조 단면설정]
-        n4["<a href='naver.com'>설계조건 선정</a>"]
+        n4[설계조건 선정]
         n5[모델링 및 구조해석]
         subgraph n6[부재 설계]
             n6_1[바닥판]
@@ -103,6 +73,8 @@ flowchart TD
 
     n19-->n20
 
+    click n4 href http://naver.com
+
     style s1 fill:#fff,stroke:#333,stroke-width:0px
     style s2 fill:#fff,stroke:#333,stroke-width:0px
-</div>
+```
