@@ -4,6 +4,10 @@ title: Index
 nav_exclude: true
 ---
 
+<div class="mermaid"> 
+  graph TD; A-->B; A-->C; B-->D; C-->D; 
+</div>
+
 # Read The Docs Theme for Jekyll and GitHub Pages
 
 This is a port of the
