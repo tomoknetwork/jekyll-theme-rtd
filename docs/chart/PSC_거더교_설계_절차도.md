@@ -6,6 +6,38 @@ nav_order: 2
 
 # PSC 거더교 설계 절차도
 
+<div class="mermaid"> 
+  graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D; 
+</div>
+
+<div class="mermaid"> 
+  graph TD;
+  A[<a href='https://naver.com'>naver</a>]-->B;
+  A-->C;
+  B-->D;
+  C-->D; 
+</div>
+
+<div class="mermaid"> 
+  graph TD
+  A-->B
+  A-->C
+  B-->D
+  C-->D 
+</div>
+
+<div class="mermaid"> 
+  graph TD
+  A[<a href='https://naver.com'>naver</a>]-->B
+  A-->C
+  B-->D
+  C-->D 
+</div>
+
 ```mermaid
 flowchart TD
     subgraph s1[" "]
