@@ -26,7 +26,9 @@
 
   {%- if site.google_analytics %}{% include ganalytics.html %}{% endif %}
   
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.1.0/+esm'
+  </script>
   <script>mermaid.initialize({startOnLoad:true,  securityLevel: 'antiscript',});</script>
 </head>
 
