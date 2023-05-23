@@ -69,9 +69,8 @@ flowchart TD
     n18 --No--> n8
     n18 --Yes-->n19
 
-    n19-->n20-->n21
+    n19-->n20
 
     style s1 fill:#fff,stroke:#333,stroke-width:0px
     style s2 fill:#fff,stroke:#333,stroke-width:0px
-
 ```
