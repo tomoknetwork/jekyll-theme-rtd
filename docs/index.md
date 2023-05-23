@@ -14,6 +14,14 @@ flowchart TD
   
 </div>
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 # Read The Docs Theme for Jekyll and GitHub Pages
 
 This is a port of the
