@@ -5,7 +5,13 @@ nav_exclude: true
 ---
 
 <div class="mermaid"> 
-  graph TD; A-->B; A-->C; B-->D; C-->D; 
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[<a href='naver.com' target='_self'>Naver 링크</a>]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+  
 </div>
 
 # Read The Docs Theme for Jekyll and GitHub Pages
