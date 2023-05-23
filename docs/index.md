@@ -4,22 +4,41 @@ title: Index
 nav_exclude: true
 ---
 
-<div class="mermaid"> 
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[<a href='naver.com' target='_self'>Naver 링크</a>]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-  
-</div>
-
 ```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
+
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
 ```
 
 # Read The Docs Theme for Jekyll and GitHub Pages
