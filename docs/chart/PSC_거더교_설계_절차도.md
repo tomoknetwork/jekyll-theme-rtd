@@ -8,8 +8,8 @@ nav_order: 1
 
 
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart TD
+    %% 그래프 노드
     subgraph s1[" "]
         n1[교량 설계 시작]
         subgraph n2[교량 형식 결정]
@@ -59,6 +59,7 @@ flowchart TD
     n19[하부구조 부재설계 완료]
     n20[교량 설계 완료]
     
+    %% 그래프 엣지
     n1 --> n2 --> n3 --> n4 --> n5 --> n6 --> n7 
 
     n7 --No--> n3
@@ -73,8 +74,28 @@ flowchart TD
 
     n19-->n20
 
+    %% 링크
     click n4 href "//chart/PSC_거더교_설계조건_선정.html"
 
-    classDef group fill:none,stroke-width:0px
-    class s1,s2 group
+    %% 스타일 정의
+    classDef transparent fill:none,stroke-width:0px
+    classDef white fill:#fff,stroke:#000
+    classDef yellow fill:#f2eabd,stroke:#000
+    classDef blue fill:#d7e8f5,stroke:#000
+    classDef green fill:#d8f5d7,stroke:#000
+    classDef gray fill:#ededed,stroke:#000
+    classDef orange fill:#edc8ab,stroke:#000
+    
+    %% 스타일 적용
+    class s1,s2 transparent
+    class n2 green
+    class n6,n16,n17 gray
+    
+    class n3,n4,n5,n6_1,n6_2,n6_3,n6_4,n6_5,n8 yellow
+    class n9,n10,n11,n12,n13,n14,n15,n16_1,n16_2,n16_3,n16_4,n16_5 blue
+    class n17_1,n17_2,n17_3,n17_4,n17_5,n19 blue
+    
+    class n1,n2_1,n2_2,n2_3,n7,n18 white
+    class n20 orange
+
 ```
