@@ -15,5 +15,5 @@ flowchart TD
 
     n1-->n2-->n3
 
-    click n2 href "//module/module_g.html"
+    click n2 href "/module/module_g.html"
 ```
