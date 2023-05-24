@@ -16,4 +16,18 @@ flowchart TD
     n1-->n2-->n3
 
     click n2 href "/module/module_g.html"
+
+    %% 스타일 정의
+    classDef transparent fill:none,stroke-width:0px
+    classDef label fill:none,stroke-width:0px
+    classDef white fill:#fff,stroke:#000
+    classDef yellow fill:#f2eabd,stroke:#000
+    classDef blue fill:#d7e8f5,stroke:#000
+    classDef green fill:#d8f5d7,stroke:#000
+    classDef gray fill:#ededed,stroke:#000
+    classDef orange fill:#edc8ab,stroke:#000
+
+    class n1,n2,n3 white
+
+    
 ```
