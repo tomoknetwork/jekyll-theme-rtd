@@ -79,6 +79,7 @@ flowchart TD
 
     %% 스타일 정의
     classDef transparent fill:none,stroke-width:0px
+    classDef label fill:none,stroke-width:0px
     classDef white fill:#fff,stroke:#000
     classDef yellow fill:#f2eabd,stroke:#000
     classDef blue fill:#d7e8f5,stroke:#000
