@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PSC 거더교 설계 절차도
-nav_order: 2
+nav_order: 1
 ---
 
 # PSC 거더교 설계 절차도
@@ -73,7 +73,7 @@ flowchart TD
 
     n19-->n20
 
-    click n4 href http://naver.com
+    click n4 href //chart/PSC_거더교_설계조건_선정
 
     style s1 fill:#fff,stroke:#333,stroke-width:0px
     style s2 fill:#fff,stroke:#333,stroke-width:0px
