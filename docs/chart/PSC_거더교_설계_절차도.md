@@ -73,8 +73,8 @@ flowchart TD
 
     n19-->n20
 
-    click n4 href //chart/PSC_거더교_설계조건_선정
+    click n4 href "//chart/PSC_거더교_설계조건_선정.html"
 
-    style s1 fill:#fff,stroke:#333,stroke-width:0px
-    style s2 fill:#fff,stroke:#333,stroke-width:0px
+    classDef group fill:none,stroke-width:0px
+    class s1,s2 group
 ```
