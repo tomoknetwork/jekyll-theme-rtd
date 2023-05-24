@@ -75,7 +75,7 @@ flowchart TD
     n19-->n20
 
     %% 링크
-    click n4 href "//chart/PSC_거더교_설계조건_선정.html"
+    click n4 href "/chart/PSC_거더교_설계조건_선정.html"
 
     %% 스타일 정의
     classDef transparent fill:none,stroke-width:0px
