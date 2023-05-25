@@ -10,7 +10,7 @@ nav_order: 1
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart TD
     %% 그래프 노드
-    n1[[모듈G. 환경조건에 따른\n노출등급 결정]]
+    n1[[모듈G. 환경조건에 따른\n노출등급 결정테스트]]
     subgraph s1[" "]
         n2[환경조건에 따른 노출등급 결정]
         l2[KDS 24 14 21_4.4.2_표4.4.2]
